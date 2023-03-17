@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+.intro-page{
+  
+position: absolute;
+width: 550px;
+height: 550px;
+left: 30%;
+top: 10%;
+
+background: #F5F7FB;
+}
+
+.intro-title{
+  position: absolute;
+width: 412px;
+height: 41px;
+left: 70px;
+top: 180px;
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 31.25px;
+line-height: 37px;
+text-align: center;
+
+color: #293264;
+
+}
+.intro-desc{
+  position: absolute;
+width: 318px;
+height: 19px;
+left: 117px;
+top: 250px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #293264;
+}
+.start-quiz{
+  position: absolute;
+  width: 193px;
+  height: 52px;
+  left: 179px;
+  top: 314px;
+  background: #4D5B9E;
+  border-radius: 15px;
+  color: white;
+}
+.start-quiz:hover{
+  border: none;
+}
+.question{
+  width: 400px;
+}
+.question-title{
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  overflow-wrap: normal;
+  color: #293264;
+}
+.center{
+  padding-left: 75px;
+  height: auto !important; 
+}
+.option{
+  display: block;
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* height: 30px; */
+  /* gap: 30px; */
+  /* margin-top: 10px; */
+}
+.option > button{
+  width: auto;
+  /* height: 20.65px; */
+  display: block;
+  margin-top: 10px;
+  background:transparent;
+  border-radius: 7.94239px;
+   border: solid #293264 1px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  text-align: center;
+  padding: 0px 5px;
+  color: #293264;
+}
+.option>button:hover{
+  /* border: none; */
+  background: #D6DBF5;
+}
+.selected{
+    background: #D6DBF5; 
+}
+.checkAnswer{
+  position: relative; 
+  width: 120px;
+  height: 35px;
+  left: 115px;
+  /* top: 510px; */
+  margin-bottom: 10px;
+  background: #4D5B9E;
+  border-radius: 10px;
+}
+.checkAnswer:hover{
+  border: none;
+}
+.score{
+  justify-content: center;
+  align-items: center;
+  left:115px;
+  position: relative;
+  /* margin-top:10px */
+}
+.play-again{
+  position: relative; 
+  width: 120px;
+  height: 35px;
+  /* top: 510px; */
+  margin: 0 0 10px 20px;
+  background: #4D5B9E;
+  border-radius: 10px;
+}
+.play-again:hover{
+  border: none;
+}
